@@ -21,14 +21,14 @@ La sentencia `else` se utiliza para ejecutar un bloque de código si no se cumpl
 ```javascript
 var dia = "domingo";
 
-if (dia === "sabado" || dia === "domingo") {
+if (dia === "sábado" || dia === "domingo") {
   console.log("¡Es fin de semana!");
 } else {
   console.log("¡A trabajar!");
 }
 ```
 
-En este ejemplo, la sentencia `if` evalúa si la variable `dia` es igual a "sabado" o "domingo". Si se cumple la condición, se muestra el mensaje "¡Es fin de semana!". Si no se cumple la condición del `if`, se ejecuta el bloque de código dentro del `else` y se muestra el mensaje "¡A trabajar!".
+En este ejemplo, la sentencia `if` evalúa si la variable `dia` es igual a "sábado" o "domingo". Si se cumple la condición, se muestra el mensaje "¡Es fin de semana!". Si no se cumple la condición del `if`, se ejecuta el bloque de código dentro del `else` y se muestra el mensaje "¡A trabajar!".
 
 ## `else if`
 

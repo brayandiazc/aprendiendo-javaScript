@@ -8,57 +8,19 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 
 ## Índice
 
-1. [Introducción](./01-introduccion/)
+1. Introducción
    1. [Que es JavaScript](./01-introduccion/01-que-es-javascript.md)
    2. [Historia de JavaScript](./01-introduccion/02-historia-javascript.md)
-2. Configuración del entorno de desarrollo
-3. Sintaxis básica y conceptos
-4. Estructuras de control
-5. Funciones
-6. Objetos y arrays
-7. DOM (Document Object Model)
-8. Eventos
-9.  AJAX y Fetch API
-10. Introducción a las librerías y frameworks
-11. Recursos adicionales y siguientes pasos
-
-## Estructura del proyecto
-
-[Aprendiendo-JavaScript](./)
-│
-├── [01-introduccion](./01-introduccion/)
-│   ├── [01-que-es-javascript.md](./01-introduccion/01-que-es-javascript.md)
-│   └── [02-historia-javascript.md](./01-introduccion/02-historia-javascript.md)
-│
-├── [02-fundamentos](./02-fundamentos/)
-│   ├── [01-variables.md](./02-fundamentos/01-variables.md)
-│   ├── [02-tipos-de-datos.md](./02-fundamentos/02-tipos-de-datos.md)
-│   ├── [03-coercion-de-datos.md](./02-fundamentos/03-coercion-de-datos.md)
-│   ├── [04-operadores.md](./02-fundamentos/04-operadores.md)
-│   ├── [05-condicionales.md](./02-fundamentos/05-condicionales.md)
-│   ├── [06-bucles.md](./02-fundamentos/06-bucles.md)
-│   ├── [07-funciones.md](./02-fundamentos/07-funciones.md)
-│   ├── [08-objetos.md](./02-fundamentos/08-objetos.md)
-│   └── [09-arrays.md](./02-fundamentos/09-arrays.md)
-│
-├── [03-temas-avanzados](./03-temas-avanzados/)
-│   ├── [01-prototipos.md](./03-temas-avanzados/01-prototipos.md)
-│   ├── [02-closures.md](./03-temas-avanzados/02-closures.md)
-│   ├── [03-async-await.md](./03-temas-avanzados/03-async-await.md)
-│   └── [04-promesas.md](./03-temas-avanzados/04-promesas.md)
-│
-├── [04-librerias-y-frameworks](./04-librerias-y-frameworks/)
-│   ├── [01-react.md](./04-librerias-y-frameworks/01-react.md)
-│   ├── [02-angular.md](./04-librerias-y-frameworks/02-angular.md)
-│   └── [03-vue.md](./04-librerias-y-frameworks/03-vue.md)
-│
-├── [05-proyectos-ejemplo](./05-proyectos-ejemplo/)
-│   ├── [01-proyecto-1](./05-proyectos-ejemplo/01-proyecto-1/)
-│   ├── [02-proyecto-2](./05-proyectos-ejemplo/02-proyecto-2/)
-│   └── [03-proyecto-3](./05-proyectos-ejemplo/03-proyecto-3/)
-│
-├── [README.md](./README.md)
-└── [LICENSE.md](./LICENSE.md)
+2. Fundamentos
+   1. [Variables](./02-fundamentos/01-variables.md)
+   2. [Tipos de datos](./02-fundamentos/02-tipos-de-datos.md)
+   3. [Coercion de datos](./02-fundamentos/03-coercion-de-datos.md)
+   4. [Operadores](./02-fundamentos/04-operadores.md)
+3. Estructuras de control
+   1. [Condicionales](./03-fundamentos/01-condicionales.md)
+   2. [Bucles](./03-fundamentos/02-bucles.md)
+4. Funciones
+   1. [Funciones](./02-fundamentos/01-funciones.md)
 
 ## Empezando 🚀
 

@@ -45,8 +45,8 @@ console.log(x); // salida: 6
 
 Los operadores de comparación en JavaScript nos permiten comparar dos valores y devolver un valor booleano (`true` o `false`) que indica si la comparación es verdadera o falsa.
 
-| Operador | Descripción |
-| -------- | ----------- |
+| Operador | Descripción                                                                                |
+| -------- | ------------------------------------------------------------------------------------------ |
 | `==`     | Compara si dos valores son iguales, realizando una conversión de tipos si es necesario.    |
 | `===`    | Compara si dos valores son iguales en tipo y valor, sin realizar una conversión de tipos.  |
 | `!=`     | Compara si dos valores son diferentes, realizando una conversión de tipos si es necesario. |

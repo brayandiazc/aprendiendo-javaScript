@@ -36,7 +36,7 @@ Cuando usar `var`, `let` o `const`?
 
 Depende de la situación. Si deseas declarar una variable global, usa `var`. Si deseas declarar una variable local, usa `let`. Si deseas declarar una variable de solo lectura, usa `const`.
 
-```js
+```javascript
 // Declaración de variables
 var nombre = "Juan";
 let paisDeResidencia = "España";
