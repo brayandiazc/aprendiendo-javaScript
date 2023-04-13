@@ -58,7 +58,6 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 ├── [README.md](./README.md)
 └── [LICENSE.md](./LICENSE.md)
 
-
 ## Empezando 🚀
 
 Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).
@@ -99,7 +98,6 @@ Consulta la sección "Recursos adicionales y siguientes pasos" en la guía para 
 ## Licencia 📄
 
 Este proyecto está bajo la licencia MIT License (MIT) - consulta el archivo [LICENSE.md](LICENSE.md) para obtener detalles o visita [MIT License](https://opensource.org/licenses/MIT) para más información.
-
 
 ## Agradecimientos 🎁
 
