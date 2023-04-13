@@ -8,7 +8,9 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 
 ## Índice
 
-1. Introducción
+1. [Introducción](./01-introduccion/)
+   1. [Que es JavaScript](./01-introduccion/01-que-es-javascript.md)
+   2. [Historia de JavaScript](./01-introduccion/02-historia-javascript.md)
 2. Configuración del entorno de desarrollo
 3. Sintaxis básica y conceptos
 4. Estructuras de control
@@ -16,7 +18,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 6. Objetos y arrays
 7. DOM (Document Object Model)
 8. Eventos
-9. AJAX y Fetch API
+9.  AJAX y Fetch API
 10. Introducción a las librerías y frameworks
 11. Recursos adicionales y siguientes pasos
 
