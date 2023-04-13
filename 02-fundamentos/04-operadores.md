@@ -45,6 +45,16 @@ console.log(x); // salida: 6
 
 Los operadores de comparación en JavaScript nos permiten comparar dos valores y devolver un valor booleano (`true` o `false`) que indica si la comparación es verdadera o falsa.
 
+| Operador | Descripción |
+| -------- | ----------- |
+| `==`     | Compara si dos valores son iguales, realizando una conversión de tipos si es necesario.    |
+| `===`    | Compara si dos valores son iguales en tipo y valor, sin realizar una conversión de tipos.  |
+| `!=`     | Compara si dos valores son diferentes, realizando una conversión de tipos si es necesario. |
+| `>`      | Compara si el primer valor es mayor que el segundo valor.                                  |
+| `<`      | Compara si el primer valor es menor que el segundo valor.                                  |
+| `>=`     | Compara si el primer valor es mayor o igual que el segundo valor.                          |
+| `<=`     | Compara si el primer valor es menor o igual que el segundo valor.                          |
+
 ```javascript
 var x = 10;
 var y = 5;
@@ -55,7 +65,25 @@ console.log(x >= y); // salida: true
 console.log(x <= y); // salida: false
 console.log(x == y); // salida: false
 console.log(x != y); // salida: true
+console.log(5 === "5"); // salida: false
 ```
+
+## Operador de igualdad estricta
+
+En JavaScript, el operador de igualdad estricta (`===`) se utiliza para comparar si dos valores son iguales en tipo y valor. A diferencia del operador de igualdad (`==`), el operador de igualdad estricta no realiza una conversión de tipos antes de la comparación.
+
+```javascript
+console.log(5 === 5); // salida: true
+console.log(5 === "5"); // salida: false
+console.log(true === 1); // salida: false
+console.log(null === undefined); // salida: false
+console.log("hello" === "hello"); // salida: true
+console.log({} === {}); // salida: false
+```
+
+En el primer ejemplo, se comparan dos números iguales y de igual tipo, por lo que el resultado es `true`. En el segundo ejemplo, se comparan un número y una cadena de texto, que son de tipos diferentes, por lo que el resultado es `false`. En el tercer ejemplo, se comparan un booleano y un número, que son de tipos diferentes, por lo que el resultado es `false`. En el cuarto ejemplo, se comparan dos valores nulos, que son de igual tipo y valor, por lo que el resultado es `true`. En el quinto ejemplo, se comparan dos cadenas de texto iguales y de igual tipo, por lo que el resultado es `true`. En el último ejemplo, se comparan dos objetos distintos, por lo que el resultado es `false`.
+
+Es importante tener en cuenta que el operador de igualdad estricta evalúa también el tipo de dato de los valores a comparar. Esto puede ser útil en ciertos casos para evitar errores de comparación por conversiones de tipos inesperadas.
 
 ## Operadores lógicos
 
