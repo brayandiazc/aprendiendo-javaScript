@@ -20,6 +20,44 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 10. Introducción a las librerías y frameworks
 11. Recursos adicionales y siguientes pasos
 
+## Estructura del proyecto
+
+[Aprendiendo-JavaScript](./)
+│
+├── [01-introduccion](./01-introduccion/)
+│   ├── [01-que-es-javascript.md](./01-introduccion/01-que-es-javascript.md)
+│   └── [02-historia-javascript.md](./01-introduccion/02-historia-javascript.md)
+│
+├── [02-fundamentos](./02-fundamentos/)
+│   ├── [01-variables.md](./02-fundamentos/01-variables.md)
+│   ├── [02-tipos-de-datos.md](./02-fundamentos/02-tipos-de-datos.md)
+│   ├── [03-operadores.md](./02-fundamentos/03-operadores.md)
+│   ├── [04-condicionales.md](./02-fundamentos/04-condicionales.md)
+│   ├── [05-bucles.md](./02-fundamentos/05-bucles.md)
+│   ├── [06-funciones.md](./02-fundamentos/06-funciones.md)
+│   ├── [07-objetos.md](./02-fundamentos/07-objetos.md)
+│   └── [08-arrays.md](./02-fundamentos/08-arrays.md)
+│
+├── [03-temas-avanzados](./03-temas-avanzados/)
+│   ├── [01-prototipos.md](./03-temas-avanzados/01-prototipos.md)
+│   ├── [02-closures.md](./03-temas-avanzados/02-closures.md)
+│   ├── [03-async-await.md](./03-temas-avanzados/03-async-await.md)
+│   └── [04-promesas.md](./03-temas-avanzados/04-promesas.md)
+│
+├── [04-librerias-y-frameworks](./04-librerias-y-frameworks/)
+│   ├── [01-react.md](./04-librerias-y-frameworks/01-react.md)
+│   ├── [02-angular.md](./04-librerias-y-frameworks/02-angular.md)
+│   └── [03-vue.md](./04-librerias-y-frameworks/03-vue.md)
+│
+├── [05-proyectos-ejemplo](./05-proyectos-ejemplo/)
+│   ├── [01-proyecto-1](./05-proyectos-ejemplo/01-proyecto-1/)
+│   ├── [02-proyecto-2](./05-proyectos-ejemplo/02-proyecto-2/)
+│   └── [03-proyecto-3](./05-proyectos-ejemplo/03-proyecto-3/)
+│
+├── [README.md](./README.md)
+└── [LICENSE.md](./LICENSE.md)
+
+
 ## Empezando 🚀
 
 Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).
