@@ -20,7 +20,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    1. [Condicionales](./03-fundamentos/01-condicionales.md)
    2. [Bucles](./03-fundamentos/02-bucles.md)
 4. Funciones
-   1. [Funciones](./02-fundamentos/01-funciones.md)
+   1. [Funciones](./04-fundamentos/01-funciones.md)
 
 ## Empezando 🚀
 
