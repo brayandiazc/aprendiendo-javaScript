@@ -17,10 +17,10 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    3. [Coercion de datos](./02-fundamentos/03-coercion-de-datos.md)
    4. [Operadores](./02-fundamentos/04-operadores.md)
 3. Estructuras de control
-   1. [Condicionales](./03-fundamentos/01-condicionales.md)
-   2. [Bucles](./03-fundamentos/02-bucles.md)
+   1. [Condicionales](./03-estructuras-de-control/01-condicionales.md)
+   2. [Bucles](./03-estructuras-de-control/02-bucles.md)
 4. Funciones
-   1. [Funciones](./04-fundamentos/01-funciones.md)
+   1. [Funciones](./04-funciones/01-funciones.md)
 
 ## Empezando 🚀
 
