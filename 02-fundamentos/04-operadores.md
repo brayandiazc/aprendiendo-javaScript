@@ -109,4 +109,4 @@ var esMayorDeEdad = edad >= 18 ? "Sí" : "No";
 console.log(esMayorDeEdad); // salida: "Sí"
 ```
 
-En este ejemplo, la variable esMayorDeEdad se asigna con el valor "Sí" si la edad es mayor o igual a 18, y con el valor "No" en caso contrario.
+En este ejemplo, la variable `esMayorDeEdad` se asigna con el valor "Sí" si la `edad` es mayor o igual a 18, y con el valor "No" en caso contrario.
