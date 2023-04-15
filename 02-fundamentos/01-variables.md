@@ -14,6 +14,24 @@ La palabra clave `var` se utiliza para declarar variables globales o locales en 
 var miVariable = "Hola mundo";
 ```
 
+En el ejemplo anterior, la variable `miVariable` es declarada en el ámbito global. Esto significa que la variable `miVariable` puede ser accedida desde cualquier parte del código. También es posible declarar variables e inicializarlas o asignarle valores más adelante.
+
+```js
+// Declaración de variables
+var nombre;
+
+// Asignación de valores
+nombre = "Juan";
+
+// Declaración de variables
+var edad, programas, numeroIdentificacion;
+
+// Asignación de valores
+edad = 30;
+programas = true;
+numeroIdentificacion = 123456789;
+```
+
 ### `let`
 
 La palabra clave `let` se utiliza para declarar variables locales en un bloque, declaración o expresión, y solo está disponible dentro del bloque en el que se declara.
@@ -57,3 +75,16 @@ const persona = {
 
 console.log(persona);
 ```
+
+## Buenas prácticas
+
+1. Utiliza nombres descriptivos para tus variables. Por ejemplo, `nombre` es mejor que `n`.
+2. Utiliza nombres que sean cortos y concisos.
+3. Utiliza nombres que sean fáciles de escribir, leer, pronunciar, recordar y fáciles de buscar en el código.
+4. Utiliza nombres en inglés en lo posible.
+5. Las variables no deben contener espacios y no pueden contener caracteres especiales.
+6. Las variables no deben contener palabras reservadas de JavaScript.
+7. Las variables no deben contener nombres de funciones, métodos, clases, objetos, etc.
+8. Las variables no deben iniciar con números, pero pueden contenerlos.
+9. Los nombres de las variables deben ser en minúsculas, a menos que sean constantes.
+10. Los tipos de escritura de las variables deben ser camelCase o snake_case.
