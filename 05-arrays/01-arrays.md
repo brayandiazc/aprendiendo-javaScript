@@ -17,7 +17,7 @@ var miArray = new Array(); // Crea un array vacío
 Para crear un array con elementos, se puede utilizar la siguiente sintaxis:
 
 ```javascript
-var miArray = [1, 'Hola', [3], true]]; // Crea un array con tres elementos
+var miArray = [1, 'Hola', [3], true]; // Crea un array con tres elementos
 ```
 
 O bien:
@@ -47,12 +47,4 @@ Para modificar un elemento de un array, se puede utilizar la siguiente sintaxis:
 var miArray = [1, 2, 3]; // Crea un array con tres elementos
 miArray[0] = 4; // Modifica el primer elemento del array
 console.log(miArray[0]); // Muestra el primer elemento del array en la consola
-```
-
-Para añadir un elemento al final de un array, se puede utilizar la siguiente sintaxis:
-
-```javascript
-var miArray = [1, 2, 3]; // Crea un array con tres elementos
-miArray.push(4); // Añade un elemento al final del array
-console.log(miArray[3]); // Muestra el cuarto elemento del array en la consola
 ```
