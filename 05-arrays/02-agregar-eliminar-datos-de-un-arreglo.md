@@ -54,6 +54,18 @@ miArreglo = [...miArreglo, ...otrosFrutos];
 console.log(miArreglo); // ['manzana', 'banana', 'cereza', 'durazno', 'fresa', 'uva']
 ```
 
+### Agregar con el método splice()
+
+El método `splice()` nos permite agregar elementos a un array en cualquier posición. Para hacerlo, debemos indicar la posición en la que queremos agregar los elementos, la cantidad de elementos que queremos eliminar (en este caso 0, ya que no queremos eliminar nada) y los elementos que queremos agregar.
+
+```javascript
+let numeros = [1, 2, 3, 4, 5];
+numeros.splice(2, 0, 6, 7);
+console.log(numeros); // [1, 2, 6, 7, 3, 4, 5]
+```
+
+En este ejemplo, hemos agregado los números 6 y 7 en la posición 2 del array numeros. Como segundo argumento, pasamos el valor 0 ya que no queremos eliminar ningún elemento.
+
 ## Eliminar elementos de un arreglo
 
 Hay varias formas de eliminar elementos de un arreglo en JavaScript:
@@ -80,21 +92,7 @@ console.log(miArreglo); // ['banana', 'cereza']
 console.log(frutaEliminada); // 'manzana'
 ```
 
-## Método splice()
-
-### Agregar elementos con splice()
-
-El método `splice()` nos permite agregar elementos a un array en cualquier posición. Para hacerlo, debemos indicar la posición en la que queremos agregar los elementos, la cantidad de elementos que queremos eliminar (en este caso 0, ya que no queremos eliminar nada) y los elementos que queremos agregar.
-
-```javascript
-let numeros = [1, 2, 3, 4, 5];
-numeros.splice(2, 0, 6, 7);
-console.log(numeros); // [1, 2, 6, 7, 3, 4, 5]
-```
-
-En este ejemplo, hemos agregado los números 6 y 7 en la posición 2 del array numeros. Como segundo argumento, pasamos el valor 0 ya que no queremos eliminar ningún elemento.
-
-### Eliminar elementos con splice()
+## Eliminar con el método splice()
 
 El método `splice()` también nos permite eliminar elementos de un array. Para hacerlo, debemos indicar la posición inicial de los elementos a eliminar y la cantidad de elementos a eliminar.
 
