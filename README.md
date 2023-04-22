@@ -23,6 +23,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    3. [Ejercicios](./03-estructuras-de-control/03-ejercicios.md)
 4. Funciones
    1. [Funciones](./04-funciones/01-funciones.md)
+   2. [Ejercicios](./04-funciones/02-ejercicios.md)
 5. Arrays
    1. [Arrays](./05-arrays/01-arrays.md)
    2. [Agregar y eliminar elementos](./05-arrays/02-agregar-y-eliminar-elementos.md)
