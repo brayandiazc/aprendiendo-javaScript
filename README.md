@@ -21,6 +21,12 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    2. [Bucles](./03-estructuras-de-control/02-bucles.md)
 4. Funciones
    1. [Funciones](./04-funciones/01-funciones.md)
+5. Arrays
+   1. [Arrays](./05-arrays/01-arrays.md)
+   2. [Agregar y eliminar elementos](./05-arrays/02-agregar-y-eliminar-elementos.md)
+   3. [Iterando arrays](./05-arrays/03-iterando-arrays.md)
+   4. [Arrow functions](./05-arrays/04-arrow-functions.md)
+   5. [Arrow functions con arrays](./05-arrays/05-arrow-functions-con-arrays.md)
 
 ## Empezando 🚀
 
