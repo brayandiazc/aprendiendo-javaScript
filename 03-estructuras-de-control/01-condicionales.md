@@ -115,3 +115,18 @@ console.log(mensaje); // salida: "Viernes"
 ```
 
 En este ejemplo, se evalúa la variable `dia` y se ejecuta el bloque de código correspondiente al caso que coincide con el valor de `dia`. Como `dia` tiene un valor de 5, se ejecuta el bloque de código correspondiente al caso `case 5`, que asigna el mensaje "Viernes" a la variable `mensaje`. El resultado se muestra en la consola con la función `console.log()`.
+
+## Buenas prácticas
+
+- Evita anidar condicionales. Si tienes que anidar más de dos condicionales, es mejor utilizar una estructura de control diferente.
+- Evita utilizar la sentencia `switch` cuando se pueda utilizar una sentencia `if` o `else if`.
+- Siempre utiliza llaves para los bloques de código, incluso si solo hay una sentencia.
+- Ser explícito con la comparación de valores y tipos de datos. En lugar de utilizar el operador de igualdad débil (`==`) que puede provocar la conversión implícita de tipos de datos, se recomienda utilizar el operador de igualdad estricta (`===`) que compara tanto el valor como el tipo de dato.
+- Evitar las condiciones anidadas o en cascada. Si es posible, se recomienda utilizar operadores lógicos (`&&`, `||`) para simplificar y mejorar la legibilidad del código.
+- Evitar la negación doble (`!!`) para convertir un valor en un valor booleano. En su lugar, utilizar los operadores `Boolean()` o `!!` para convertir un valor en un valor booleano.
+- Ser cuidadoso al utilizar la negación (`!`). Asegurarse de que el resultado de la negación sea lo que se espera. En algunos casos, puede ser más claro y legible utilizar una comparación explícita en lugar de la negación.
+- Utilizar variables descriptivas y legibles para los valores de las condiciones y los resultados de las operaciones. Esto hace que el código sea más fácil de entender y depurar.
+- Asegurarse de que todas las posibles condiciones sean evaluadas. Incluir una condición else para manejar los casos en los que ninguna de las condiciones anteriores es verdadera.
+- Asegurarse de que las condiciones sean lo más específicas posible. Si hay varias condiciones que pueden ser verdaderas, se recomienda evaluar la condición más específica primero.
+
+Siguiendo estas buenas prácticas en las condicionales en JavaScript, podemos escribir código más legible, fácil de entender y menos propenso a errores sutiles.
