@@ -12,7 +12,7 @@ En JavaScript, existen varios tipos de datos que se pueden utilizar para almacen
 * `array`
 * `object`
 
-### `string`
+## Tipo de dato `string`
 
 El tipo de datos `string` o cadena de caracteres se utiliza para representar texto.
 
@@ -29,7 +29,7 @@ var mensaje = "Este es un mensaje\nen dos líneas.";
 var titulo = "Página principal\t\tMi sitio web";
 ```
 
-### `number`
+## Tipo de dato `number`
 
 El tipo de datos `number` o numérico se utiliza para representar números enteros y decimales.
 
@@ -38,7 +38,7 @@ var numeroEntero = 42;
 var numeroDecimal = 3.14;
 ```
 
-### `boolean`
+## Tipo de dato `boolean`
 
 El tipo de datos `boolean` o booleano se utiliza para representar valores lógicos, es decir, verdadero o falso.
 
@@ -47,7 +47,7 @@ var esMayorDeEdad = true;
 var tieneLicencia = false;
 ```
 
-### `undefined`
+## Tipo de dato `undefined`
 
 El tipo de datos `undefined` se utiliza para representar un valor no definido.
 
@@ -55,7 +55,7 @@ El tipo de datos `undefined` se utiliza para representar un valor no definido.
 var valorNoDefinido;
 ```
 
-### `null`
+## Tipo de dato `null`
 
 El tipo de datos `null` se utiliza para representar un valor nulo o vacío.
 
@@ -63,7 +63,7 @@ El tipo de datos `null` se utiliza para representar un valor nulo o vacío.
 var valorNulo = null;
 ```
 
-### `symbol`
+## Tipo de dato `symbol`
 
 El tipo de datos `symbol` se utiliza para representar un valor único e inmutable.
 
@@ -71,7 +71,7 @@ El tipo de datos `symbol` se utiliza para representar un valor único e inmutabl
 var simbolo = Symbol("mi-simbolo");
 ```
 
-### `bigint`
+## Tipo de dato `bigint`
 
 El tipo de datos `bigint` se utiliza para representar números enteros de gran tamaño.
 
@@ -79,7 +79,7 @@ El tipo de datos `bigint` se utiliza para representar números enteros de gran t
 var numeroEnteroGrande = 9007199254740991n;
 ```
 
-### `Array`
+## Tipo de dato `Array`
 
 El tipo de datos `Array` o arreglo se utiliza para representar una colección de datos ordenados.
 
@@ -88,7 +88,7 @@ var frutas = ["manzana", "naranja", "plátano"];
 var numeros = [1, 2, 3, 4, 5];
 ```
 
-### `object`
+## Tipo de dato `object`
 
 El tipo de datos `object` o objeto se utiliza para representar una colección de datos.
 
@@ -107,7 +107,7 @@ var persona = {
 
 Para saber cual es el tipo de dato de una variable, podemos utilizar el operador `typeof`.
 
-```js
+```javascript
 var nombre = "Juan";
 console.log(typeof nombre); // string
 

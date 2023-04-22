@@ -65,3 +65,12 @@ console.log(Boolean(valor4)); // salida: false
 ```
 
 ¡Y eso es todo por ahora! La coerción de datos en JavaScript es una herramienta muy útil para convertir valores de un tipo de dato a otro cuando sea necesario, ya sea de forma implícita o explícita. Es importante tener en cuenta que la coerción implícita puede llevar a resultados inesperados o errores en nuestro código si no se maneja adecuadamente. Por eso es recomendable ser conscientes de las conversiones de datos que están ocurriendo en nuestro código y utilizar la coerción explícita cuando sea necesario para evitar confusiones o errores. Con un buen conocimiento de la coerción de datos en JavaScript, podemos escribir código más claro y efectivo para nuestras aplicaciones.
+
+## Buenas prácticas
+
+- Evitar el uso de operadores de igualdad débil (==) y desigualdad débil (!=) ya que pueden provocar resultados inesperados debido a la coerción automática de tipos de datos. En su lugar, se recomienda utilizar los operadores de igualdad estricta (===) y desigualdad estricta (!==) que comparan tanto el valor como el tipo de dato.
+- Utilizar los métodos nativos de conversión de tipos de datos, como parseInt(), parseFloat() y Number(), en lugar de usar conversiones implícitas. Esto ayuda a evitar errores y asegura una conversión precisa.
+- Ser explícitos al convertir valores, en lugar de confiar en la coerción implícita. Por ejemplo, usar parseInt("10", 10) en lugar de solo parseInt("10").
+- Entender cómo funciona la coerción de tipos de datos en JavaScript. Por ejemplo, tener en cuenta que una cadena vacía ("") se convierte en 0 cuando se usa en una operación aritmética.
+- Usar isNaN() para verificar si un valor es NaN (Not a Number) en lugar de compararlo directamente con NaN.
+- Usar typeof para verificar el tipo de dato de un valor en lugar de compararlo directamente con un tipo de dato.

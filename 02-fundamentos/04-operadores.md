@@ -110,3 +110,24 @@ console.log(esMayorDeEdad); // salida: "Sí"
 ```
 
 En este ejemplo, la variable `esMayorDeEdad` se asigna con el valor "Sí" si la `edad` es mayor o igual a 18, y con el valor "No" en caso contrario.
+
+## Buenas prácticas
+
+- Evita utilizar el operador de igualdad estricta (`===`) para comparar valores nulos o indefinidos. En estos casos, es mejor utilizar el operador de igualdad (`==`).
+- Evitar el uso de operadores de igualdad débil (`==`) y desigualdad débil (`!=`) ya que pueden provocar resultados inesperados debido a la coerción automática de tipos de datos. En su lugar, se recomienda utilizar los operadores de igualdad estricta (`===`) y desigualdad estricta (`!==`) que comparan tanto el valor como el tipo de dato.
+- Utilizar operadores bit a bit solo cuando sea necesario, ya que pueden hacer que el código sea difícil de entender. En su lugar, usar los operadores lógicos (`&&`, `||`) y los operadores de comparación (`===`, `!==`) cuando sea posible.
+- Evitar el uso de operadores de incremento (`++`) y decremento (`--`), ya que pueden hacer que el código sea difícil de entender y llevar a errores sutiles. En su lugar, utilizar operaciones aritméticas simples.
+- Ser conscientes de la precedencia y la asociatividad de los operadores. Si no estamos seguros de cómo se evaluará una expresión, utilizar paréntesis para asegurarnos de que se evalúe de la manera que queremos.
+- Utilizar operadores lógicos cortocircuitados (`&&` y `||`) en lugar de los operadores ternarios cuando sea posible. Por ejemplo, en lugar de escribir:
+
+```javascript
+var resultado = (condicion) ? valor1 : valor2;
+```
+
+Podemos escribir:
+
+```javascript
+var resultado = condicion && valor1 || valor2;
+```
+
+Esto hace que el código sea más conciso y legible.
