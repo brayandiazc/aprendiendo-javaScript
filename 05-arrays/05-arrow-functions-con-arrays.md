@@ -81,3 +81,16 @@ const suma = (arr) => {
 
 suma(numeros);
 ```
+
+## Buenas prácticas
+
+- Las arrow functions son una forma más concisa de definir funciones en JavaScript. En lugar de usar la palabra clave `function`, se usan flechas `=>`.
+- Utilizar métodos de array como `map()`, `filter()`, `reduce()`, etc. en lugar de bucles for con arrow functions. Estos métodos son más legibles y menos propensos a errores.
+- Utilizar la sintaxis de una sola línea (`=>`) para arrow functions que tienen una sola expresión en el cuerpo. En su lugar, utilizar la sintaxis de bloque (`{}`) para arrow functions que tienen varias líneas de código en el cuerpo.
+- Utilizar la declaración de `const` en lugar de `let` para asignar arrow functions a variables. Esto evita que la variable sea reasignada accidentalmente.
+- Utilizar nombres descriptivos y legibles para las variables que contienen arrow functions. Esto hace que el código sea más fácil de entender y depurar.
+- Utilizar la sintaxis de desestructuración para acceder a los elementos del array dentro de la arrow function. Esto hace que el código sea más legible y menos propenso a errores.
+- Evitar la mutación directa de los elementos del array dentro de la arrow function, especialmente cuando se trata de arrays anidados. En su lugar, utilizar métodos de array que no mutan el array original, como `map()`, `filter()`, `reduce()`, etc.
+- Utilizar el método `Array.isArray()` para verificar si un valor es un array antes de utilizar una arrow function. Esto es más seguro que utilizar la comprobación de tipo `typeof`.
+
+Siguiendo estas buenas prácticas al utilizar arrow functions con arrays en JavaScript, podemos escribir código más legible, eficiente y menos propenso a errores sutiles.

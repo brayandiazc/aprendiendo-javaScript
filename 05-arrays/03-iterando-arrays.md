@@ -249,3 +249,16 @@ console.log(algunPar); // false
 En este ejemplo, el método `some()` llama a la función especificada para cada elemento del arreglo `numeros`. La función especificada verifica si el valor del elemento es par, y devuelve true o false según corresponda.
 
 En conclusión, los métodos `map()`, `filter()`, `find()`, `reduce()`, `every()`, `some()` son muy útiles para iterar un arreglo y realizar operaciones sobre sus elementos. Si bien no son los únicos métodos que nos permiten iterar un arreglo, son los métodos más utilizados.
+
+
+## Buenas prácticas
+
+- Utilizar métodos de array como `forEach()`, `map()`, `filter()`, `reduce()`, etc. en lugar de bucles `for`. Estos métodos son más legibles y menos propensos a errores.
+- Ser cuidadoso al utilizar la indexación de array (`array[i]`) dentro de un bucle. Asegurarse de que el índice sea válido y de que no se produzca un desbordamiento o subdesbordamiento.
+- Utilizar nombres descriptivos y legibles para las variables del bucle y para los elementos del array. Esto hace que el código sea más fácil de entender y depurar.
+- Utilizar el método `Array.isArray()` para verificar si un valor es un array antes de iterar sobre él. Esto es más seguro que utilizar la comprobación de tipo `typeof`.
+- Utilizar la sintaxis de desestructuración para acceder a los elementos de un array en lugar de utilizar la indexación de array. Esto hace que el código sea más legible y menos propenso a errores.
+- Evitar la mutación directa de los elementos del array dentro del bucle, especialmente cuando se trata de arrays anidados. En su lugar, utilizar métodos de array que no mutan el array original, como `map()`, `filter()`, `reduce()`, etc.
+- Utilizar la declaración de const en lugar de let para declarar la variable del bucle si no se va a modificar dentro del bucle.
+
+Siguiendo estas buenas prácticas al iterar con arrays en JavaScript, podemos escribir código más legible, eficiente y menos propenso a errores sutiles.

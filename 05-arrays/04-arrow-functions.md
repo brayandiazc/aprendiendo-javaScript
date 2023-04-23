@@ -72,3 +72,16 @@ En el tercer ejemplo, se define una función que recibe un número y devuelve su
 
 - No pueden ser usadas como constructores (no tienen un objeto `prototype`).
 - No tienen un `arguments` propio, por lo que si se desea acceder a los argumentos de la función, se deben usar argumentos predeterminados o rest parameters.
+
+
+## Buenas Prácticas
+
+- Utilizar arrow functions en lugar de funciones anónimas en callbacks. Las arrow functions son más cortas, legibles y evitan el uso de la palabra clave `this`.
+- Utilizar paréntesis alrededor de los parámetros de la función si hay más de uno. Esto hace que el código sea más legible y evita errores sutiles.
+- Utilizar la sintaxis de una sola línea (`=>`) para arrow functions que tienen una sola expresión en el cuerpo. En su lugar, utilizar la sintaxis de bloque (`{}`) para arrow functions que tienen varias líneas de código en el cuerpo.
+- Utilizar la declaración de const en lugar de let para asignar arrow functions a variables. Esto evita que la variable sea reasignada accidentalmente.
+- Utilizar nombres descriptivos y legibles para las variables que contienen arrow functions. Esto hace que el código sea más fácil de entender y depurar.
+- Evitar el uso excesivo de arrow functions. Las arrow functions son útiles para funciones simples y para callbacks, pero pueden hacer que el código sea más difícil de leer si se utilizan en exceso.
+- Asegurarse de que el contexto de `this` sea el deseado dentro de la arrow function. En algunos casos, puede ser necesario utilizar la función `bind()` para establecer explícitamente el contexto de `this`.
+
+Siguiendo estas buenas prácticas al utilizar arrow functions en JavaScript, podemos escribir código más legible, eficiente y menos propenso a errores sutiles.

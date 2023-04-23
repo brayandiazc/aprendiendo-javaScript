@@ -114,3 +114,15 @@ console.log(numerosEliminados); // [3, 4]
 ```
 
 En este caso, hemos eliminado los elementos en las posiciones 2 y 3 del array `numeros` y los hemos guardado en la variable `numerosEliminados`.
+
+## Buenas prácticas
+
+- Utilizar métodos de array que no mutan el array original, como `concat()`, `slice()`, `map()`, `filter()`, `reduce()`, etc. Esto es especialmente importante si se está trabajando con un array que no se debe modificar directamente.
+- Utilizar el método `push()` para agregar elementos al final del array. Este método es más eficiente que utilizar la asignación de índice (`array[i] = value`) para agregar elementos al final.
+- Utilizar el método `unshift()` para agregar elementos al inicio del array. Este método es más eficiente que utilizar la asignación de índice (`array[i] = value`) para agregar elementos al inicio.
+- Utilizar el método `pop()` para eliminar el último elemento del array. Este método es más eficiente que utilizar la asignación de índice (`delete array[i]`) para eliminar el último elemento.
+- Utilizar el método `shift()` para eliminar el primer elemento del array. Este método es más eficiente que utilizar la asignación de índice (`delete array[0]`) para eliminar el primer elemento.
+- Evitar la eliminación de elementos del medio del array, ya que esto puede provocar la reorganización del resto de los elementos y afectar el rendimiento. En su lugar, utilizar el método `splice()` para eliminar elementos del medio del array.
+- Ser cuidadoso al utilizar métodos de array que modifican el array original, como `sort()`, `reverse()`, `splice()`, etc. Asegurarse de que la mutación del array sea necesaria y de que se comprenda completamente su impacto.
+
+Siguiendo estas buenas prácticas al agregar y eliminar elementos de un array en JavaScript, podemos escribir código más legible, eficiente y menos propenso a errores sutiles.
