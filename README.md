@@ -30,6 +30,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    3. [Iterando arrays](./05-arrays/03-iterando-arrays.md)
    4. [Arrow functions](./05-arrays/04-arrow-functions.md)
    5. [Arrow functions con arrays](./05-arrays/05-arrow-functions-con-arrays.md)
+   6. [Ejercicios](./05-arrays/06-ejercicios.md)
 
 ## Empezando 🚀
 

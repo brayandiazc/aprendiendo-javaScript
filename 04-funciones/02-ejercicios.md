@@ -1,4 +1,4 @@
-# Ejercicios para funciones
+# Ejercicios funciones
 
 Esta sección contiene ejercicios para practicar los conceptos de funciones en JavaScript.
 
