@@ -1,6 +1,6 @@
 # Objetos
 
-¡Claro! Los objetos son una estructura de datos importante en JavaScript que nos permiten almacenar datos y funciones relacionadas en una sola entidad. En ECMAScript 6, se introdujeron algunas características nuevas y útiles para trabajar con objetos. Aquí te explico en detalle cómo funcionan los objetos en JavaScript:
+Los objetos son una estructura de datos importante en JavaScript que nos permiten almacenar datos y funciones relacionadas en una sola entidad. En ECMAScript 6, se introdujeron algunas características nuevas y útiles para trabajar con objetos. Aquí te explico en detalle cómo funcionan los objetos en JavaScript:
 
 ## Creación de objetos
 
