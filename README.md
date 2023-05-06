@@ -42,13 +42,13 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    8. [Clases](./06-objetos-y-clases/08-clases.md)
    9. [Ejercicios](./06-objetos-y-clases/09-ejercicios.md)
 7. Programación orientada a objetos
-   1. [Programación orientada a objetos](./06-objetos-y-clases/01-programacion-orientada-a-objetos.md)
-   2. [Declaración de clases](./06-objetos-y-clases/02-declaracion-de-clases.md)
-   3. [Abstract classes](./06-objetos-y-clases/03-abstract-classes.md)
-   4. [Herencia](./06-objetos-y-clases/04-herencia.md)
-   5. [Encapsulamiento](./06-objetos-y-clases/05-encapsulamiento.md)
-   6. [Polimorfismo](./06-objetos-y-clases/06-polimorfismo.md)
-   7. [Ejercicios](./06-objetos-y-clases/07-ejercicios.md)
+   1. [Programación orientada a objetos](./07-poo/01-programacion-orientada-a-objetos.md)
+   2. [Declaración de clases](./07-poo/02-declaracion-de-clases.md)
+   3. [Abstract classes](./07-poo/03-abstract-classes.md)
+   4. [Herencia](./07-poo/04-herencia.md)
+   5. [Encapsulamiento](./07-poo/05-encapsulamiento.md)
+   6. [Polimorfismo](./07-poo/06-polimorfismo.md)
+   <!-- 7. [Ejercicios](./07-poo/07-ejercicios.md) -->
 8. Proyectos
    1. [Conversor de monedas](./proyectos/conversor-monedas.md)
 
