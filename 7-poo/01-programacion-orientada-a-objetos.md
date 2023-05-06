@@ -7,25 +7,32 @@ La programación orientada a objetos es un paradigma de programación que se bas
 Supongamos que queremos crear una aplicación que permita almacenar información sobre estudiantes de una escuela. Cada estudiante tendrá un nombre, una edad y una nota promedio. Para ello, podemos crear una clase `Estudiante` que defina las propiedades y métodos que tendrá cada estudiante:
 
 ```javascript
+// Definir la clase Estudiante
 class Estudiante {
+  // Constructor que toma nombre, edad y notaPromedio como argumentos
   constructor(nombre, edad, notaPromedio) {
+    // Asignar los argumentos a las propiedades correspondientes
     this.nombre = nombre;
     this.edad = edad;
     this.notaPromedio = notaPromedio;
   }
 
+  // Método para obtener el nombre del estudiante
   obtenerNombre() {
     return this.nombre;
   }
 
+  // Método para obtener la edad del estudiante
   obtenerEdad() {
     return this.edad;
   }
 
+  // Método para obtener la nota promedio del estudiante
   obtenerNotaPromedio() {
     return this.notaPromedio;
   }
 
+  // Método para establecer la nota promedio del estudiante
   establecerNotaPromedio(notaPromedio) {
     this.notaPromedio = notaPromedio;
   }
