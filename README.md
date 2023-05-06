@@ -31,7 +31,25 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    4. [Arrow functions](./05-arrays/04-arrow-functions.md)
    5. [Arrow functions con arrays](./05-arrays/05-arrow-functions-con-arrays.md)
    6. [Ejercicios](./05-arrays/06-ejercicios.md)
-6. Proyectos
+6. Objetos y clases
+   1. [EcmaScript 6](./06-objetos-y-clases/01-ecmascript-6.md)
+   2. [Declaración con let y const](./06-objetos-y-clases/02-declaracion-con-let-y-const.md)
+   3. [String templates](./06-objetos-y-clases/03-string-templates.md)
+   4. [Objetos](./06-objetos-y-clases/04-objetos.md)
+   5. [Iterando objetos](./06-objetos-y-clases/05-iterando-objetos.md)
+   6. [Desestructuración de objetos](./06-objetos-y-clases/06-desestructuracion-de-objetos.md)
+   7. [Desestructuración de arrays](./06-objetos-y-clases/07-desestructuracion-de-arrays.md)
+   8. [Clases](./06-objetos-y-clases/08-clases.md)
+   9. [Ejercicios](./06-objetos-y-clases/09-ejercicios.md)
+7. Programación orientada a objetos
+   1. [Programación orientada a objetos](./06-objetos-y-clases/09-programacion-orientada-a-objetos.md)
+   2. [Declaración de clases](./06-objetos-y-clases/10-declaracion-de-clases.md)
+   3. [Abstract classes](./06-objetos-y-clases/11-abstract-classes.md)
+   4. [Herencia](./06-objetos-y-clases/12-herencia.md)
+   5. [Encapsulamiento](./06-objetos-y-clases/13-encapsulamiento.md)
+   6. [Polimorfismo](./06-objetos-y-clases/14-polimorfismo.md)
+   7. [Ejercicios](./06-objetos-y-clases/15-ejercicios.md)
+8. Proyectos
    1. [Conversor de monedas](./proyectos/conversor-monedas.md)
 
 ## Empezando 🚀
