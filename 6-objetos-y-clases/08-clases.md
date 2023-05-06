@@ -32,8 +32,8 @@ En este ejemplo, creamos una clase `Persona` con un constructor que define las p
 
 Las clases en ECMAScript 6 también admiten la herencia, lo que nos permite crear una nueva clase basada en una clase existente.
 
-Ejemplo:
-    
+**Ejemplo:**
+
 ```javascript
 class Empleado extends Persona {
   constructor(nombre, edad, trabajo) {
