@@ -128,4 +128,13 @@ obtenerDatos()
 
 En este ejemplo, la función obtenerDatos devuelve una promesa que se resuelve después de 2 segundos y devuelve un objeto con datos simulados. Si la promesa se resuelve correctamente, el método then se llama con los datos obtenidos. Si la promesa se rechaza, el método catch se llama con un mensaje de error.
 
-Espero que esto te ayude a entender cómo funcionan las promesas en ECMAScript 6.
+## Buenas prácticas
+
+- Utiliza `const` para declarar variables que no cambiarán su valor y `let` para las que sí lo harán.
+- Utiliza funciones de flecha en lugar de funciones normales.
+- Utiliza plantillas de cadena en lugar de concatenación de cadenas.
+- Utiliza la desestructuración para extraer datos de matrices y objetos.
+- Utiliza clases para crear objetos con propiedades y métodos.
+- Utiliza promesas para manejar tareas asíncronas.
+
+Siguiendo estas buenas prácticas, podrás escribir un código más limpio y fácil de mantener.
