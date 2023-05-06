@@ -75,3 +75,9 @@ miCuenta.retirar(1000); // Resultado: "No hay suficiente saldo para realizar la 
 En este ejemplo, utilizamos los métodos `depositar` y `retirar` de la instancia para modificar su propiedad `#saldo`. Luego, utilizamos el método `get` para obtener el valor actual del saldo y lo mostramos en la consola. Finalmente, intentamos retirar más dinero del que hay disponible en la cuenta y se muestra un mensaje de error en la consola.
 
 El encapsulamiento en JavaScript nos permite proteger las propiedades y métodos internos de una clase y exponer solo los que necesitamos externamente. Esto ayuda a mantener la integridad del objeto y evitar que se acceda y modifique sus propiedades y métodos de manera inadecuada.
+
+## Buenas prácticas
+
+- Utiliza la palabra clave `private` para proteger las propiedades y métodos internos de una clase.
+- Utiliza la palabra clave `public` para exponer las propiedades y métodos externamente.
+- Utiliza la palabra clave `protected` para exponer las propiedades y métodos a las clases hijas.
