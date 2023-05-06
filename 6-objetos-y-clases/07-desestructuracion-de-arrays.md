@@ -65,4 +65,8 @@ console.log(cuarto); // Resultado: "cuatro"
 
 En este ejemplo, utilizamos la desestructuración de arrays para extraer los elementos `primero`, `segundo`, `tercero` y `cuarto`. El tercer elemento es otro array que se desestructura automáticamente.
 
-Espero que esta explicación te haya sido útil. La desestructuración de arrays es una característica muy útil de ECMAScript 6 que nos permite extraer valores de arrays de forma más conveniente y legible.
+## Buenas prácticas
+
+- La desestructuración de arrays es una característica muy útil de ECMAScript 6, pero debemos utilizarla con moderación. Si utilizamos la desestructuración de arrays en exceso, nuestro código puede volverse difícil de leer y mantener.
+- La desestructuración de arrays es especialmente útil cuando trabajamos con funciones que devuelven arrays. En lugar de asignar el valor de retorno de la función a una variable y luego extraer los elementos del array, podemos hacerlo en una sola línea de código.
+- La desestructuración de arrays es una característica de ECMAScript 6, por lo que no es compatible con versiones anteriores de JavaScript. Si utilizamos la desestructuración de arrays en nuestro código, debemos compilarlo con Babel para que sea compatible con todos los navegadores.
