@@ -48,8 +48,12 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    4. [Herencia](./07-poo/04-herencia.md)
    5. [Encapsulamiento](./07-poo/05-encapsulamiento.md)
    6. [Polimorfismo](./07-poo/06-polimorfismo.md)
-   <!-- 7. [Ejercicios](./07-poo/07-ejercicios.md) -->
-8. Proyectos
+   7. [Ejercicios](./07-poo/07-ejercicios.md)
+8. DOM y eventos
+   1. [DOM](./08-dom/01-dom.md)
+   2. [Eventos](./08-dom/02-eventos.md)
+   3. [Ejercicios](./08-dom/03-ejercicios.md)
+9. Proyectos
    1. [Conversor de monedas](./proyectos/conversor-monedas.md)
 
 ## Empezando 🚀
