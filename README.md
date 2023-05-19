@@ -56,7 +56,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    4. [Crear elementos](./08-dom/04-crear-elementos.md)
    5. [Eventos del dom](./08-dom/05-eventos-del-dom.md)
    6. [Agregar eventos a elementos](./08-dom/06-agregar-eventos-a-elementos.md)
-   7. [Manipulación del DOM](./08-dom/07-manipulacion-del-dom.md)
+   7. [Manipulación de atributos](./08-dom/07-manipulacion-de-atributos.md)
    8. [LocalStorage](./08-dom/08-localstorage.md)
    9. [Elementos dinámicos](./09-dom/08-elementos-dinamicos.md)
    10. [Ejercicios](./08-dom/10-ejercicios.md)
