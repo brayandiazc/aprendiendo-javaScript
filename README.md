@@ -55,7 +55,10 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    3. [Selección del DOM](./08-dom/03-seleccion-del-dom.md)
    4. [Crear elementos](./08-dom/04-crear-elementos.md)
    5. [Eventos del dom](./08-dom/05-eventos-del-dom.md)
-   <!-- 3. [Ejercicios](./08-dom/03-ejercicios.md) -->
+   6. [Manipulación del DOM](./08-dom/06-manipulacion-del-dom.md)
+   7. [LocalStorage](./08-dom/07-localstorage.md)
+   8. [Elementos dinámicos](./08-dom/08-elementos-dinamicos.md)
+   9. [Ejercicios](./08-dom/09-ejercicios.md) -->
 9. Proyectos
    1. [Conversor de monedas](./proyectos/conversor-monedas.md)
 

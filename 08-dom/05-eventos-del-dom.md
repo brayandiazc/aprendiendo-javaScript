@@ -4,6 +4,46 @@ Los eventos del DOM son acciones o sucesos que ocurren en los elementos del docu
 
 JavaScript proporciona diferentes métodos para adjuntar y manejar eventos en los elementos del DOM. A continuación, te mostraré algunos ejemplos de eventos comunes y cómo trabajar con ellos:
 
+## onchange
+
+El evento `onchange` se desencadena cuando el valor de un elemento cambia y pierde el foco, como en el caso de los campos de entrada de texto o las listas desplegables.
+
+```html
+<input type="text" onchange="miFuncion()">
+```
+
+En este ejemplo, cuando el usuario cambie el valor del campo de entrada y salga del mismo, se ejecutará la función `miFuncion()`.
+
+## onclick
+
+El evento `onclick` se desencadena cuando se hace clic en un elemento, como un botón o un enlace.
+
+```html
+<button onclick="miFuncion()">Haz clic</button>
+```
+
+En este ejemplo, cuando el usuario haga clic en el botón, se ejecutará la función `miFuncion()`.
+
+## onmouseover y onmouseout
+
+Los eventos `onmouseover` y `onmouseout` se desencadenan cuando el cursor del mouse se mueve sobre un elemento o sale de él, respectivamente.
+
+```html
+<div onmouseover="miFuncion()" onmouseout="miOtraFuncion()"></div>
+```
+
+En este ejemplo, cuando el cursor del mouse se mueva sobre el elemento `div`, se ejecutará la función `miFuncion()`, y cuando el cursor del mouse salga del elemento `div`, se ejecutará la función `miOtraFuncion()`.
+
+## onkeydown
+
+El evento `onkeydown` se desencadena cuando se presiona una tecla del teclado mientras un elemento tiene el foco, como un campo de entrada de texto.
+
+```html
+<input type="text" onkeydown="miFuncion(event)">
+```
+
+En este ejemplo, cuando el usuario presione una tecla mientras el campo de entrada de texto tiene el foco, se ejecutará la función `miFuncion()` y se pasará el evento como argumento.
+
 ## Evento click
 
 El evento `click` se desencadena cuando se hace clic en un elemento.
@@ -58,47 +98,7 @@ element.addEventListener('mouseout', function() {
 });
 ```
 
-Los eventos que mencionaste son algunos de los eventos más comunes en JavaScript. A continuación, te explico cada uno de ellos:
-
-## onchange
-
-El evento `onchange` se desencadena cuando el valor de un elemento cambia y pierde el foco, como en el caso de los campos de entrada de texto o las listas desplegables.
-
-```html
-<input type="text" onchange="miFuncion()">
-```
-
-En este ejemplo, cuando el usuario cambie el valor del campo de entrada y salga del mismo, se ejecutará la función `miFuncion()`.
-
-## onclick
-
-El evento `onclick` se desencadena cuando se hace clic en un elemento, como un botón o un enlace.
-
-```html
-<button onclick="miFuncion()">Haz clic</button>
-```
-
-En este ejemplo, cuando el usuario haga clic en el botón, se ejecutará la función `miFuncion()`.
-
-## onmouseover y onmouseout
-
-Los eventos `onmouseover` y `onmouseout` se desencadenan cuando el cursor del mouse se mueve sobre un elemento o sale de él, respectivamente.
-
-```html
-<div onmouseover="miFuncion()" onmouseout="miOtraFuncion()"></div>
-```
-
-En este ejemplo, cuando el cursor del mouse se mueva sobre el elemento `div`, se ejecutará la función `miFuncion()`, y cuando el cursor del mouse salga del elemento `div`, se ejecutará la función `miOtraFuncion()`.
-
-## onkeydown
-
-El evento `onkeydown` se desencadena cuando se presiona una tecla del teclado mientras un elemento tiene el foco, como un campo de entrada de texto.
-
-```html
-<input type="text" onkeydown="miFuncion(event)">
-```
-
-En este ejemplo, cuando el usuario presione una tecla mientras el campo de entrada de texto tiene el foco, se ejecutará la función `miFuncion()` y se pasará el evento como argumento.
+## Recomendación
 
 Es importante tener en cuenta que los atributos de eventos en línea, como `onchange`, `onclick`, etc., se utilizan comúnmente para casos sencillos. Sin embargo, en situaciones más complejas, se recomienda utilizar el método `addEventListener` para adjuntar eventos de manera más flexible y separar el código JavaScript del HTML.
 
