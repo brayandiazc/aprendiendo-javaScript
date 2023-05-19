@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1 id="titulo">Título</h1>
+    <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    <button id="boton">Haz clic</button>
+
+    <script>
+        // Acceder a un elemento HTML
+        const titulo = document.getElementById("titulo");
+        console.log(titulo);
+
+        // Modificar el contenido de un elemento HTML
+        titulo.textContent = "Nuevo título";
+
+        // Agregar un evento a un elemento HTML
+        const boton = document.getElementById("boton");
+        boton.addEventListener("click", () => {
+            console.log("Haz hecho clic en el botón");
+        });
+    </script>
+</body>
+</html>

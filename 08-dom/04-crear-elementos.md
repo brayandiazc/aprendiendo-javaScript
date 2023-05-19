@@ -19,10 +19,10 @@ A continuación, te mostraré un ejemplo de cómo crear elementos en el DOM:
 
     // Crear un nuevo elemento
     const newElement = document.createElement('p');
-    
+
     // Asignar contenido al nuevo elemento
     newElement.textContent = 'Este es un nuevo párrafo creado con JavaScript';
-    
+
     // Agregar el nuevo elemento al contenedor
     container.appendChild(newElement);
   </script>

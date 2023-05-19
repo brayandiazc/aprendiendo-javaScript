@@ -57,7 +57,7 @@ Aqui podemos ver otro ejemplo de como acceder y manipular el DOM utilizando Java
     const parrafoElemento = document.getElementById("parrafo");
 
     // Modificar contenido de elementos
-    tituloElemento.textContent = "¡Hola, GPT!";
+    tituloElemento.textContent = "¡Hola, UDD!";
     parrafoElemento.innerHTML = "Este es un párrafo modificado.";
 
     // Agregar un nuevo elemento

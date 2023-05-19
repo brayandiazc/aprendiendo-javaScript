@@ -54,13 +54,14 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
    2. [Eventos](./08-dom/02-eventos.md)
    3. [Selección del DOM](./08-dom/03-seleccion-del-dom.md)
    4. [Crear elementos](./08-dom/04-crear-elementos.md)
+   5. [Eventos del dom](./08-dom/05-eventos-del-dom.md)
    <!-- 3. [Ejercicios](./08-dom/03-ejercicios.md) -->
 9. Proyectos
    1. [Conversor de monedas](./proyectos/conversor-monedas.md)
 
 ## Empezando 🚀
 
-Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).
+Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).-
 
 ### Pre-requisitos 📋
 
