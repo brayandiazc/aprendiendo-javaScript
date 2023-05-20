@@ -6,7 +6,7 @@ En JavaScript, podemos interactuar con el DOM para realizar diversas tareas, com
 
 A continuación, te mostraré un ejemplo básico de cómo acceder y manipular el DOM utilizando JavaScript:
 
-´´´html
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -35,13 +35,13 @@ A continuación, te mostraré un ejemplo básico de cómo acceder y manipular el
     </script>
 </body>
 </html>
-´´´
+```
 
 En este ejemplo, accedemos a un elemento HTML utilizando el método `getElementById` y lo almacenamos en una variable llamada `titulo`. Luego, modificamos el contenido del elemento utilizando la propiedad `textContent`. Finalmente, agregamos un evento al botón utilizando el método `addEventListener`.
 
 Aqui podemos ver otro ejemplo de como acceder y manipular el DOM utilizando JavaScript:
 
-´´´html
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,7 +76,7 @@ Aqui podemos ver otro ejemplo de como acceder y manipular el DOM utilizando Java
   </script>
 </body>
 </html>
-´´´
+```
 
 En este ejemplo, utilizamos JavaScript dentro de la etiqueta `<script>` para acceder y manipular el DOM. Algunas acciones que realizamos son:
 
