@@ -1,6 +1,6 @@
 # Dom
 
-El DOM (Document Object Model) es una representación en forma de árbol de la estructura de un documento HTML (o XML). El DOM proporciona una interfaz que permite acceder y manipular los elementos y contenido de un documento web de manera programática.
+El DOM (Document Object Model) es una representación en forma de árbol de la estructura de un documento HTML (o XML). El DOM proporciona una interfaz que permite acceder y manipular los elementos y contenido de un documento web.
 
 En JavaScript, podemos interactuar con el DOM para realizar diversas tareas, como acceder a elementos HTML, modificar su contenido, agregar o eliminar elementos, cambiar estilos y manejar eventos.
 
