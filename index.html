@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Agregar eventos a elementos en JavaScript</title>
+  <title>Ejemplo de Local Storage</title>
 </head>
 <body>
-  <button id="myButton">Haz clic aquí</button>
+  <h1>Local Storage Example</h1>
+  <input type="text" id="nameInput" placeholder="Ingresa tu nombre">
+  <button onclick="guardarNombre()">Guardar</button>
+  <p id="mensaje"></p>
 
   <script>
-    // Obtener una referencia al elemento del botón
-    const button = document.getElementById('myButton');
+    function guardarNombre() {
+      const nombre = document.getElementById('nameInput').value;
+      localStorage.setItem('nombre', nombre);
+      document.getElementById('mensaje').textContent = 'Nombre guardado en el Local Storage.';
+    }
 
-    // Agregar un controlador de eventos al botón
-    button.addEventListener('click', function() {
-      // Lógica a ejecutar cuando se hace clic en el botón
-      console.log('Se hizo clic en el botón');
+    window.addEventListener('DOMContentLoaded', function() {
+      const nombreGuardado = localStorage.getItem('nombre');
+      if (nombreGuardado) {
+        document.getElementById('nameInput').value = nombreGuardado;
+        document.getElementById('mensaje').textContent = 'Nombre cargado desde el Local Storage.';
+      }
     });
   </script>
 </body>
