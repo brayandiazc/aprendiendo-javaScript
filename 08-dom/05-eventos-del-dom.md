@@ -117,6 +117,54 @@ Es importante tener en cuenta que los atributos de eventos en línea, como `onch
 
 En este caso, se utiliza `addEventListener` para adjuntar el evento `click` al botón y ejecutar la función `miFuncion()` cuando se hace clic en el botón.
 
+En el siguiente ejemplo utilizaremos algunos de los eventos del DOM que hemos visto hasta ahora:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eventos del DOM</title>
+</head>
+<body>
+  <h1>Eventos del DOM</h1>
+  <input type="text" id="inputText" onchange="mostrarMensaje()">
+  <button onclick="cambiarColor()">Haz clic</button>
+  <p onmouseover="mostrarMensaje('¡Pasaste el mouse por encima!')" onmouseout="mostrarMensaje('¡Mouse fuera!')">Pasa el mouse aquí</p>
+  <input type="text" onkeydown="mostrarTecla(event)">
+
+  <script>
+    function mostrarMensaje(mensaje) {
+      if (mensaje) {
+        console.log(mensaje);
+      } else {
+        console.log("El valor del input ha cambiado");
+      }
+    }
+
+    function cambiarColor() {
+      document.body.style.backgroundColor = "red";
+    }
+
+    function mostrarTecla(event) {
+      console.log("Tecla presionada: " + event.key);
+    }
+  </script>
+</body>
+</html>
+```
+
+En este ejemplo, se utilizan diferentes eventos del DOM:
+
+- `onchange`: Se utiliza en un campo de entrada de texto (`<input>`) con el atributo `onchange="mostrarMensaje()"`. Cuando el valor del campo de entrada cambia y se pierde el enfoque del campo, se ejecuta la función `mostrarMensaje()`. En este caso, la función muestra un mensaje en la consola indicando que el valor del input ha cambiado.
+
+- `onclick`: Se utiliza en un botón (`<button>`) con el atributo `onclick="cambiarColor()"`. Cuando se hace clic en el botón, se ejecuta la función `cambiarColor()`. En este caso, la función cambia el color de fondo del `<body>` a rojo.
+
+- `onmouseover` y `onmouseout`: Se utilizan en un párrafo (`<p>`) con los atributos `onmouseover="mostrarMensaje('¡Pasaste el mouse por encima!')"` y `onmouseout="mostrarMensaje('¡Mouse fuera!')"`. Cuando el cursor del mouse se mueve sobre el párrafo, se ejecuta la función `mostrarMensaje()` con el mensaje correspondiente. Cuando el cursor se mueve fuera del párrafo, también se ejecuta la función `mostrarMensaje()` con el mensaje correspondiente.
+
+- `onkeydown`: Se utiliza en un campo de entrada de texto (`<input>`) con el atributo `onkeydown="mostrarTecla(event)"`. Cuando se presiona una tecla mientras el campo de entrada tiene el foco, se ejecuta la función `mostrarTecla()` y se pasa como argumento el evento (`event`) que contiene información sobre la tecla presionada. En este caso, la función muestra en la consola la tecla presionada.
+
+Cada evento está asociado a una función que se ejecuta cuando ocurre ese evento en el elemento correspondiente. Puedes personalizar las funciones y los mensajes según tus necesidades y agregar más lógica para interactuar con los elementos del DOM en respuesta a los eventos.
+
 Estos son solo algunos ejemplos de eventos comunes que se pueden utilizar en JavaScript. Existen muchos más eventos disponibles, como `keydown`, `keyup`, `change`, `focus`, `blur`, entre otros. Puedes consultar la documentación oficial de eventos en JavaScript para obtener más información sobre los diferentes tipos de eventos y cómo utilizarlos.
 
 Recuerda que los eventos son una parte fundamental de la interacción con los usuarios en una página web, y mediante su uso adecuado, puedes capturar y responder a las acciones del usuario para crear una experiencia interactiva y dinámica.

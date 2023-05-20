@@ -51,8 +51,6 @@ Este método eliminará todos los datos almacenados en el Local Storage.
 
 Es importante tener en cuenta que los datos almacenados en el Local Storage están disponibles incluso después de cerrar y volver a abrir el navegador. Sin embargo, los datos del Local Storage son específicos del dominio y solo pueden ser accedidos por el mismo dominio que los almacenó.
 
-Por supuesto, aquí tienes un ejemplo que incluye un archivo HTML con JavaScript para utilizar el Local Storage:
-
 ```html
 <!DOCTYPE html>
 <html>
