@@ -1,6 +1,6 @@
 # Aprendiendo JavaScript
 
-Guía básica y completa para aprender JavaScript desde cero.
+Guía completa para aprender JavaScript desde cero.
 
 ## Descripción
 
@@ -65,7 +65,7 @@ Esta guía está diseñada para ayudar a principiantes a aprender los conceptos 
 
 ## Empezando 🚀
 
-Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).-
+Para comenzar a trabajar con esta guía, es necesario tener un navegador web moderno (como Google Chrome, Mozilla Firefox, Edge o Safari) y un editor de código (como Visual Studio Code, Sublime Text o Atom).
 
 ### Pre-requisitos 📋
 
